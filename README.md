@@ -2,7 +2,7 @@
 
 A simple module to download a file from an url
 
-Download: https://github.com/TheRealJan/FileURLDownloader/releases/tag/v1.0
+Download [here](https://github.com/TheRealJan/FileURLDownloader/releases/tag/v1.0)
 
 Examples:
 
