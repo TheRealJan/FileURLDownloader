@@ -29,7 +29,7 @@ downloader.asyncDownload("https://github.com/TheRealJan/FileURLDownloader/raw/ma
 
         @Override
         public void onError(IOException e) {
-        e.printStackTrace();
+            e.printStackTrace();
         }
     });
 ```
