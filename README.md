@@ -2,7 +2,7 @@
 
 A simple module to download a file from an url
 
-Download: https://github.com/TheRealJan/FileURLDownloader/releases/download/v1.0/FileURLDownloader.jar
+Download: https://github.com/TheRealJan/FileURLDownloader/releases/tag/v1.0
 
 Examples:
 
