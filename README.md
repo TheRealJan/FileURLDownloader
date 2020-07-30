@@ -13,10 +13,10 @@ URLDownloader downloader = new URLDownloader();
 downloader.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0");
 
 //Download file using normal downloader.
-downloader.download("", new File("C:\\Downloads\\README.md"));
+downloader.download("https://github.com/TheRealJan/FileURLDownloader/raw/master/README.md", new File("C:\\Downloads\\README.md"));
 
 //Download file using async downloader.
-downloader.asyncDownload("https://speed.hetzner.de/100MB.bin", new File("C:\\Downloads\\README.md"), new DownloadListener() {
+downloader.asyncDownload("https://github.com/TheRealJan/FileURLDownloader/raw/master/README.md", new File("C:\\Downloads\\README.md"), new DownloadListener() {
         @Override
         public void onDownloading(String percentComplete) {
             System.out.println("Downloading file... " + percentComplete + "% complete");
